@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-    <Product/>
+    <Product>
+      
+    </Product>
   </div>
 </template>
 
@@ -12,6 +14,30 @@ export default {
   name: 'ProductView',
   components: {
     Product
+  },
+  data(){
+    return{
+          product: [
+                {
+                    id: 1,
+                    name: "Lengra",
+                    image: "mango-1.jpg",
+                    price: 155,
+                },
+                {
+                    id: 2,
+                    name: "Amropali",
+                    image: "mango-2.jpg",
+                    price: 178,
+                },
+                {
+                    id: 3,
+                    name: "Fazli",
+                    image: "mango-3.jpg",
+                    price: 286,
+                },
+            ],
+    }
   }
 }
 </script>

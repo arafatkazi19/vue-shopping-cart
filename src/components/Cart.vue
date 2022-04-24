@@ -1,12 +1,12 @@
 <template>
   <section class="rounded-3" style="background-color: rgb(253, 214, 100) ;">
-    <div class="container h-100">
-      <div class="row d-flex justify-content-center align-items-center h-100">
+    <div class="container">
+      <div class="row d-flex justify-content-center align-items-center">
         <div class="col">
           <p><span class="h2">Shopping Cart </span></p>
 
           <div class="card mb-4">
-            <div class="card-body p-4">
+            <div class="card-body p-4 vw-100">
               <div class="row align-items-center">
                 <div class="col-md-2">
                   <img
@@ -19,15 +19,6 @@
                   <div>
                     <p class="small text-muted mb-4 pb-2">Name</p>
                     <p class="lead fw-normal mb-0">iPad Air</p>
-                  </div>
-                </div>
-                <div class="col-md-2 d-flex justify-content-center">
-                  <div>
-                    <p class="small text-muted mb-4 pb-2">Color</p>
-                    <p class="lead fw-normal mb-0">
-                      <i class="fas fa-circle me-2" style="color: #fdd8d2"></i>
-                      pink rose
-                    </p>
                   </div>
                 </div>
                 <div class="col-md-2 d-flex justify-content-center">
